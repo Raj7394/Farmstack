@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Italiana&family=Poppins:wght@300&family=Raleway&display=swap');
+.landing-post{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.abt-photo{
+    height: 400px;
+}
+.uti-text{
+    color: rgb(116, 104, 89);
+    font-weight: 500;
+    width: 50vw;
+    align-items: center;
+    align-self: center;
+    padding: 4rem;
+}
+.imgR{
+    margin-right: 2rem;
+}
+.imgL{
+    margin-left: 2rem;
+}
+.Aboutpg{
+    display: flex;
+    flex-direction: column;
+}
+.abouthead{
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: xxx-large;
+}
+.aboutpara{
+    font-family: 'Poppins', sans-serif;
+}
+.land{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+    
+}
+/* .FbtnL{
+    border: 2px solid  rgba(119, 237, 198, 0.805);
+    border-radius: 10px;
+    width: max-content;
+    padding: 0.6rem;
+    color: black;
+}
+.FbtnL:hover{
+    background-color:rgba(130, 247, 208, 0.516) ;
+} */
+
+@media screen and (max-width:480px) {
+    .uti-text{
+        width: 90vw;
+        padding: 3px;
+        margin-bottom: 1rem;
+    }
+    .imgL{
+        margin-left: unset;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .imgR{
+        margin-right: unset;
+        padding: 1rem;
+        border-radius: 10px;
+    }    
+    .landpost{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+}
